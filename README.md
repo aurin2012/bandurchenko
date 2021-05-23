@@ -1,6 +1,6 @@
 <h1>Факт, изменивший всё:</h1> 
 
-<p style=”padding-top:10px;>Это текст с отступом.</p>
+<p style=”padding-top: 50px;>Это текст с отступом.</p>
 
 <img src="https://github.com/aurin2012/bandurchenko/blob/main/Мокап%20книги%20с%20жестким%20переплётом%20на%20кожаном%20чехле.jpg?raw=true">
 
