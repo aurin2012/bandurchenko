@@ -1,4 +1,4 @@
-<h1 style="padding-bottom: 20px; padding-top: 50px;">Факт, изменивший всё:</h1> 
+<h1 style="color:#0000FF padding-bottom: 20px; padding-top: 50px;">Факт, изменивший всё:</h1> 
 
 
 
