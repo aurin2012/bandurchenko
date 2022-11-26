@@ -9,7 +9,8 @@
 
 <p>Стоимость книги — 2000р. Отзывы здесь: https://vk.com/youarehereforlife?w=wall-92969131_3979. Приобрести книгу вы можете в электронном варианте, в формате Word и PDF. <b>После оплаты вы будете перенесены в папку с файлами.</b> Можно оплатить Яндекс.Кошельком или картой нажав на кнопку:</p>
 
-<iframe src="https://yoomoney.ru/quickpay/button-widget?targets=%D0%A4%D0%B0%D0%BA%D1%82%2C%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%B2%D1%88%D0%B8%D0%B9%20%D0%B2%D1%81%D1%91&default-sum=2000&button-text=11&yoomoney-payment-type=on&button-size=m&button-color=black&successURL=https%3A%2F%2Fdisk.yandex.ru%2Fd%2Fh6eF__5-3MC37V&quickpay=small&account=410011432758181&" width="184" height="36" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+<iframe src="https://yoomoney.ru/quickpay/fundraise/button?billNumber=Q9f7EgQNCLQ.221126&" width="330" height="50" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+
 
 
 <h1 style="color: #5069A0;padding-bottom: 20px; padding-top: 50px;">Магнум Опус. Том I: Невосполнимая утрата и гиперинфляция:</h1>
