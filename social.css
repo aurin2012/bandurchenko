@@ -61,7 +61,52 @@
   letter-spacing:-1px;
 }
 .catalog .product-card{background:#11191c;border-color:#35484d}
+.consultation-card{max-width:800px;margin:44px auto 0;padding:32px;background:radial-gradient(ellipse at top right,#0a535d28,transparent 65%),var(--panel);border:1px solid #456168;border-radius:28px}
+.consultation-heading{display:flex;align-items:center;justify-content:space-between;gap:32px}
+.consultation-card h2{font-size:32px;line-height:1.2;font-weight:600;letter-spacing:-1px;margin:0;max-width:370px;text-wrap:balance}
+.consultation-format{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.consultation-format span{padding:5px 10px;border:1px solid #3f5155;border-radius:8px;font-size:11px;line-height:1.4;color:#c0ced1}
+.consultation-details{margin-top:26px;border:1px solid #3b4a4e;border-radius:14px;background:#10171950;overflow:hidden}
+.consultation-details summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 18px;list-style:none;cursor:pointer;font-size:13px;font-weight:600;color:#c9dcdf;transition:background .2s}
+.consultation-details summary::-webkit-details-marker{display:none}
+.consultation-details summary:hover{background:#0a535d26}
+.consultation-details summary:focus-visible{outline:2px solid var(--link);outline-offset:-4px;border-radius:14px}
+.consultation-details summary svg{width:18px;height:18px;transition:transform .2s}
+.consultation-details[open] summary svg{transform:rotate(180deg)}
+.consultation-description{padding:0 18px 18px;color:#d3d4d8;font-size:14px;line-height:1.8}
+.consultation-description p{margin:14px 0 0}
+.consultation-description p:first-child{margin-top:0}
+.consultation-price{flex-shrink:0;padding:18px 22px;background:#0a535d35;border:1px solid #3b6268;border-radius:20px}
+.consultation-price>span{display:block;font-size:11px;line-height:1.4;color:#b9cdcf;margin-bottom:6px}
+.consultation-price strong{display:block;font-size:46px;line-height:1.1;letter-spacing:-1.5px;font-weight:600;white-space:nowrap}
+.consultation-price strong span{font-size:28px;letter-spacing:0;color:#b9cdcf}
+.consultation-footer{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:28px;padding-top:24px;border-top:1px solid #ffffff14}
+.consultation-footer p{font-size:13px;line-height:1.6;color:var(--muted);margin:0;max-width:250px}
+.consultation-links{display:flex;gap:10px;flex-shrink:0}
+.contact-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 16px;border:1px solid #456168;border-radius:12px;background:#0a535d26;font-size:13px;font-weight:600;transition:background .2s,border-color .2s}
+.contact-button:hover{background:#0a535d66;border-color:#8ac9d0}
+.contact-button>svg{width:15px;height:15px;color:#a8dce1}
+.contact-button .platform-icon{width:19px;height:19px;fill:currentColor;stroke:none}
+.contact-button .icon-telegram{fill:none;stroke:currentColor;stroke-width:1.8}
+.consultation-card+.catalog{margin-top:36px}
+footer{flex-wrap:wrap}
+footer .meta-note{flex-basis:100%;max-width:none;margin:0;font-size:10px;line-height:1.6}
 @media(max-width:760px){
+  .consultation-card{margin-top:32px;padding:24px 20px;border-radius:24px}
+  .consultation-heading{flex-direction:column;align-items:stretch;gap:22px}
+  .consultation-card h2{font-size:28px;max-width:100%;text-wrap:initial}
+  .consultation-details summary{padding:14px;font-size:12px}
+  .consultation-description{padding:0 14px 16px;font-size:13px}
+  .consultation-price{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px;border-radius:16px}
+  .consultation-price>span{max-width:90px;margin:0}
+  .consultation-price strong{font-size:38px}
+  .consultation-price strong span{font-size:24px}
+  .consultation-footer{flex-direction:column;align-items:stretch;gap:16px;margin-top:24px;padding-top:20px}
+  .consultation-footer p{max-width:100%;font-size:12px}
+  .consultation-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:10px}
+  .contact-button{padding:12px 10px;gap:7px;font-size:12px}
+  .contact-button>svg:last-child{display:none}
+  .consultation-card+.catalog{margin-top:32px}
   .catalog{margin:44px -8px 28px;padding:26px 14px 14px;border-radius:28px}
   .catalog .section-heading{margin-bottom:24px;gap:9px}
   .catalog .section-heading h2{font-size:28px;letter-spacing:-.8px}
