@@ -112,3 +112,55 @@ footer .meta-note{flex-basis:100%;max-width:none;margin:0;font-size:10px;line-he
   .catalog .section-heading h2{font-size:28px;letter-spacing:-.8px}
   .catalog .section-heading>span{font-size:10px}
 }
+
+.therapy-page{max-width:1120px;margin:0 auto;padding:42px 36px 70px}
+.therapy-header{padding:12px 0 38px;border-bottom:1px solid #494949;margin-bottom:38px}
+.therapy-header .eyebrow{font-size:12px;color:#c6c6c6;margin-bottom:14px}
+.therapy-header h1{font-size:clamp(32px,4vw,52px);letter-spacing:-1.8px}
+.therapy-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:54px;align-items:start}
+.therapy-contents{position:sticky;top:30px;display:flex;flex-direction:column;gap:12px;font-size:12px;line-height:1.55;color:#b7b7b7}
+.therapy-contents>span{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#c6c6c6;margin-bottom:4px}
+.therapy-contents a:hover{color:#e1e1e1}
+.therapy-text{min-width:0;max-width:720px;font-size:16px;line-height:1.9;color:#d4d4d4;overflow-wrap:break-word}
+.therapy-text p{margin:0 0 24px}
+.therapy-text strong{color:#eeeeee;font-weight:650}
+.therapy-text h2,.therapy-text h3{color:var(--text);line-height:1.35;letter-spacing:-.5px;scroll-margin-top:30px}
+.therapy-text h2{font-size:29px;margin:46px 0 22px}
+.therapy-text h3{font-size:21px;margin:34px 0 18px}
+.therapy-text ul{padding-left:22px;margin:0 0 24px}
+.therapy-text li{margin:8px 0}
+.therapy-text a{color:#c6c6c6;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.therapy-text hr{border:0;border-top:1px solid #494949;margin:42px 0}
+.article-back{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 24px;margin-top:36px;border:1px solid #575757;border-radius:18px;background:#292929;color:#e1e1e1;font-size:14px}
+
+/* Consultation keeps its existing contents; the article is a separate square. */
+.consultation-pair{display:grid;grid-template-columns:minmax(0,1fr) 380px;align-items:start;gap:22px;max-width:1180px;margin:44px auto 0}
+.consultation-pair .consultation-card{width:100%;max-width:none;min-height:380px;margin:0}
+.therapy-entry{display:flex;flex-direction:column;aspect-ratio:1;height:380px;padding:26px;border:1px solid #8b7857;border-radius:28px;background:var(--panel);color:var(--text);transition:border-color .2s}
+.therapy-entry:hover{border-color:#b19b74}
+.therapy-entry:focus-visible{outline-color:#b19b74;outline-offset:5px}
+.therapy-entry-label{display:flex;align-items:center;gap:10px;font-size:10px;line-height:1.5;text-transform:uppercase;letter-spacing:.9px;color:var(--muted)}
+.therapy-entry-label svg{width:19px;height:19px}
+.therapy-entry h3{font-size:30px;font-weight:600;line-height:1.18;letter-spacing:-.8px;margin:20px 0 16px;max-width:270px}
+.therapy-entry p{font-size:12px;line-height:1.75;color:#b5b6bd;margin:0 0 22px}
+.therapy-entry p strong{font-weight:650;color:var(--text)}
+.therapy-entry-label,.therapy-entry h3,.therapy-entry-action{flex-shrink:0}
+.therapy-entry-preview{position:relative;flex:1;min-height:0;overflow:hidden;margin-bottom:18px}
+.therapy-entry-preview p{margin:0}
+.therapy-entry-preview.is-truncated{mask-image:linear-gradient(to bottom,#000 calc(100% - 32px),transparent);-webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 32px),transparent)}
+.therapy-entry-action{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:auto;padding-top:17px;border-top:1px solid var(--border);font-size:12px;font-weight:600;color:#b6c9cc}
+.therapy-entry-action svg{width:18px;height:18px}
+@media(max-width:1250px){.consultation-pair .consultation-footer{flex-wrap:wrap;gap:18px}.consultation-pair .consultation-heading{gap:20px}}
+@media(max-width:1050px){.consultation-pair{grid-template-columns:minmax(0,1fr);max-width:800px}.therapy-entry{width:380px;min-width:0;max-width:100%;justify-self:end}.therapy-layout{grid-template-columns:190px minmax(0,1fr);gap:32px}}
+@media(max-width:760px){
+ .consultation-pair{margin-top:32px;gap:16px}
+ .therapy-entry{width:100%;aspect-ratio:auto;height:350px;padding:24px;border-radius:24px}
+ .therapy-entry h3{font-size:28px;max-width:280px;margin:18px 0 16px}
+ .therapy-entry p{font-size:12px}.therapy-entry-action{font-size:12px}
+ .therapy-page{padding:28px 22px 48px}
+ .therapy-header{margin-bottom:24px;padding-bottom:26px}
+ .therapy-layout{grid-template-columns:1fr;gap:30px}
+ .therapy-contents{position:static;padding:18px;border:1px solid #494949;border-radius:16px;background:#222222}
+ .therapy-text{font-size:15px;line-height:1.85}
+ .therapy-text h2{font-size:25px}.therapy-text h3{font-size:20px}
+}
